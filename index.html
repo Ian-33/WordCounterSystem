@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
+    </nav>
+    <h1 class="Header">Welcome to our Word Counter System</h1>
+    <div class="Input-Box">
+        <textarea class="Input" id="textarea" placeholder="Enter your text here..."></textarea>
+    </div>
+    <h2 class="Header2">Choose what to count</h2>
+
+    <div class="Input-Box2">
+        <label class="Select" for="options">Select</label>
+        <select class="Container1" id="options">
+            <option class="Text1" value="Word">Word</option>
+            <option class="Text1" value="Sentence">Sentence</option>
+            <option class="Text1" value="Paragraph">Paragraph</option>
+            <option class="Text1" value="All">All</option>
+        </select>
+    </div>
+    <div class="Option-Box">
+        <div class="center">
+            <div class="Text2" id="word-count"> 0 Words</div>
+            <div class="Text2" id="sentence-count">0 Sentences</div>
+            <div class="Text2" id="paragraph-count">0 Paragraphs</div>
+        </div>
+    </div>
+
+    <div class="Start-Button">
+        <button class="Button1" id="start-button">Start Counting</button>
+    </div>
+
+    <!--Function Section-->
+    <script src="function.js"></script>
+    <!--Function Section-->
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+        body {
+            background-color:#fadadd;
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .navbar {
+            background: #ffb7c5;
+            padding: 15px 5px 15px 5px;
+        }
+
+        .nav-links {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .nav-links li {
+            display: inline;
+        }
+
+        .nav-links li a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-weight: 550;
+            transition: 0.3s;
+        }
+
+        .nav-links li a:hover{
+            color: grey;
+        }
+
+        .Header {
+            font-size: 1.7em;
+            text-align: center;
+            margin-top: 30px;
+
+        }
+
+        .Header2 {
+            color: #100c08;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .Input-Box {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .Input-Box2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .Input {
+            border: 2px solid black;
+            border-radius: 15px;
+            padding: 20px;
+            width: 300px;
+            height: 200px; 
+            resize: none; 
+        }
+
+        .Option-Box {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .Start-Button {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .Button1 {
+            border: 2px solid black;
+            background-color: #fd6c9e;
+            border-radius: 20px;
+            padding: 8px 12px 8px 12px;
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+            font-size: 15px;
+            font-weight: 550;
+            cursor: pointer;
+        }
+
+        .Select {
+            color: #100c08;
+            font-size: 15px;
+            font-weight: 550;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .Container1{
+            margin-left: 5px;
+            color: white;
+            font-size: 15px;
+            border: 2px solid black;
+            background-color: #fd6c9e;
+            border-radius: 8px;
+            padding: 5px 5px 3px 3px;
+            cursor: pointer;
+        
+        }
+
+        textarea {
+            font-size: 15px;
+            font-weight: lighter;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .Text2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .Header {
+                font-size: 1.5em;
+            }
+
+            .Header2 {
+                font-size: 1.2em;
+            }
+
+            .Input-Box {
+                margin-top: 30px;
+            }
+        }
