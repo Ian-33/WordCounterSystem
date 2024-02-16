@@ -34,7 +34,7 @@
         }
 
         .Header {
-            font-size: 1.7em;
+            font-size: 1.8em;
             text-align: center;
             margin-top: 30px;
 
@@ -88,6 +88,7 @@
             background-color: #fd6c9e;
             border-radius: 20px;
             padding: 8px 12px 8px 12px;
+            margin-buttom: 50px
             font-family: 'Montserrat', sans-serif;
             color: white;
             font-size: 15px;
