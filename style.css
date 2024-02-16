@@ -127,6 +127,20 @@
             font-weight: 500;
         }
 
+        footer {
+            background-color: #ffb7c5;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        .footer-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px;
+            text-align: center;
+            font-weight: 550;
+            color: white;
+        }
+
         @media only screen and (max-width: 600px) {
             .Header {
                 font-size: 1.5em;
